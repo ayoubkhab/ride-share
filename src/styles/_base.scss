@@ -1,0 +1,112 @@
+//colors
+$color-grey: darkgrey;
+$color-light-grey: #919191;
+$color-primary: #204051;
+$color-secondary: #3b6978;
+$color-tertiary: #84a9ac;
+
+// Shadow
+$shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.15),
+	0 0.2rem 0.4rem rgba(0, 0, 0, 0.12);
+$shadow-short: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15),
+	0 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
+
+//fonts
+$font-primary: "Roboto", sans-serif;
+
+// Typography
+
+// Breakpoints
+$bp-largest: 68.75em; // 1100px
+$bp-large: 54.375em; // 870px
+$bp-medium: 45.625em; // 730px
+$bp-medium-small: 41.25em; // 660px
+$bp-small: 33.125em; // 530px
+$bp-smallest: 23.125em; // 370px
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: inherit;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	// font-size: 62.5%;
+}
+
+body {
+	font-family: $font-primary;
+	font-weight: 400;
+	line-height: 1.6;
+	color: $color-primary;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+
+	&:-webkit-any-link {
+		color: currentColor;
+	}
+
+	&::active,
+	&::visited {
+		color: currentColor;
+	}
+}
+
+/*
+h6 {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 2.2rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 3.6rem;
+	font-weight: 700;
+}
+
+*/
